@@ -16,13 +16,13 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://github.com/landonjam/ngrockrdp/blob/main/resources/ngrok.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://raw.githubusercontent.com/landonjam/ngrockrdp/main/resources/ngrok.zip -OutFile ngrok.zip
 
-        Invoke-WebRequest https://github.com/landonjam/ngrockrdp/blob/main/resources/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/landonjam/ngrockrdp/main/resources/start.bat -OutFile start.bat
 
-        Invoke-WebRequest https://github.com/landonjam/ngrockrdp/blob/main/resources/winrar.exe -OutFile winrar.exe
+        Invoke-WebRequest https://raw.githubusercontent.com/landonjam/ngrockrdp/main/resources/winrar.exe -OutFile winrar.exe
 
-        Invoke-WebRequest https://github.com/landonjam/ngrockrdp/blob/main/resources/any.exe -OutFile any.exe
+        Invoke-WebRequest https://raw.githubusercontent.com/landonjam/ngrockrdp/main/resources/any.exe -OutFile any.exe
 
         
 
@@ -72,7 +72,7 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://github.com/landonjam/ngrockrdp/blob/main/resources/loop.ps1 -OutFile loop.ps1
+        Invoke-WebRequest https://raw.githubusercontent.com/landonjam/ngrockrdp/main/resources/loop.ps1 -OutFile loop.ps1
 
         ./loop.ps1
 
