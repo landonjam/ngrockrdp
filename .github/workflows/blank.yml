@@ -48,8 +48,6 @@ jobs:
 
         copy winrar.exe C:\Users\Public\Desktop\winrar.exe
 
-        copy any.exe C:\Users\Public\Desktop\any.exe
-
         
 
     - name: Create Tunnel
