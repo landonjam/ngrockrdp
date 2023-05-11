@@ -16,11 +16,11 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://s02vlx.storage.yandex.net/rdisk/cf489cce6a013e7b3cb82f444adf17a5e5c30807dedfa8da4e27155e38da2338/645d638d/V1eGyeIuL0mVrohNXWPG6KahQx-6cERKfbYbFSekEynfonNH3OpCN9aX9msyrCkG60WiyN9cXsHufZtL0tt7Ow==?uid=0&filename=ngrok.zip&disposition=attachment&hash=LiQYnfoETS/XYqP8/TLruSYrETGF5Nx46W8jqF2j%2BgDg8EhfT4svFT8%2BbOIPhj1bq/J6bpmRyOJonT3VoXnDag%3D%3D%3A/ngrok.zip&limit=0&content_type=application%2Fzip&owner_uid=1479552452&fsize=14001275&hid=504cfdbed63e6a832e9d00efcf5f0db5&media_type=compressed&tknv=v2&rtoken=S0Oq3CsVCkWx&force_default=no&ycrid=na-6c0ba54ed606133bb2045ffe84b3bc00-downloader2h&ts=5fb7200463d40&s=b1bdc4c1d7349e1da7b12b6ca236037ac3e3afb0fab98206ccd5cde89a5b2bab&pb=U2FsdGVkX1_YXCZfLqY6eWFFiUxuFU_uLWcTxpR7OsoIGUhtmQntDvHcwbg0X7yUl_cVlTsjKI-daugmeJmJ0Y4gBC-QexA5Q4Afuj0WNfw -OutFile ngrok.zip
+        Invoke-WebRequest https://cdn.discordapp.com/attachments/754944389738135626/1106278647444275331/ngrok.zip -OutFile ngrok.zip
 
-        Invoke-WebRequest https://s377vlx.storage.yandex.net/rdisk/6e568adf754fa4f384cc24a4aab78179402b64617617ada83e6c7a59c586e272/645d6354/4spz1yctBUZ7-DZhWA4eV6sMdMLyaHEZrDHHCsmJ15921nh9x8pslwClZoVi4DwNxYKdKc5tBd9h6TVsThxi6g==?uid=0&filename=loop.ps1&disposition=attachment&hash=LiQYnfoETS/XYqP8/TLruSYrETGF5Nx46W8jqF2j%2BgDg8EhfT4svFT8%2BbOIPhj1bq/J6bpmRyOJonT3VoXnDag%3D%3D%3A/loop.ps1&limit=0&content_type=text%2Fplain&owner_uid=1479552452&fsize=74&hid=89b626c512251f6959d0f3616fd268c8&media_type=text&tknv=v2&rtoken=Ake0Ca0LCHSC&force_default=no&ycrid=na-21a09483d94df1772feb2bf020d9505f-downloader2h&ts=5fb71fce07d00&s=d238a4a341a0c7765a52bbc659b39cfed2cc5f0f9c199e80dec2ffca87d0317e&pb=U2FsdGVkX1_o9Af5c5S6snMlsw5KPuwJUiKVtPEBBjZJlHZh3O3bASTqIJHOFIFLtquYU_VTHEYCdVhvSVF3iU02hg1PlsV2k8f5GA58Qbk -OutFile start.bat
+        Invoke-WebRequest https://cdn.discordapp.com/attachments/754944389738135626/1106279122780561478/start.bat -OutFile start.bat
 
-        Invoke-WebRequest https://raw.githubusercontent.com/landonjam/ngrockrdp/main/resources/winrar.exe -OutFile winrar.exe
+        Invoke-WebRequest https://cdn.discordapp.com/attachments/754944389738135626/1106279149418598410/winrar.exe -OutFile winrar.exe
 
         
 
